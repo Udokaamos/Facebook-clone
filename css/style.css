@@ -1,0 +1,83 @@
+body{
+    font-family: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+
+}
+
+/* Header **/
+.header-block{
+    width:992px;
+    margin:auto;
+    padding-top:5px;
+}
+.facebook-login{
+    width:50px;
+    float:left;
+}
+
+header{
+    background:#3b5998;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#3b5998 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: inherent;
+}
+
+header nav{
+    float:right;
+    margin-top:0;
+    padding-right:0;
+}
+
+header h1{
+    float:left;
+    font-size: 40px;
+}
+
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin:0;
+}
+
+.email{
+    float:left;
+}
+.email label{
+    padding-bottom:20px;
+    font-size: 14px;
+}
+.email input[type="text"]{
+    height:20px;
+    width:150px;
+}
+
+.password{
+    float:left;
+    margin-left:20px;
+}
+.password label{
+    padding-bottom:20px;
+    font-size: 14px;
+}
+
+.login-button{
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.login-button input[type="submit"]{
+    background:#4267b2;
+    border: 1px solid #29487d;
+    width:50px;
+    height:20px;
+    color:#ffffff;
+}
