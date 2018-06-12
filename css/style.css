@@ -11,6 +11,12 @@ body{
     margin:auto;
     padding-top:5px;
 }
+
+.highlight{
+    color:#ffffff;
+    text-align: right;
+
+}
 .facebook-login{
     width:50px;
     float:left;
@@ -56,13 +62,19 @@ header #branding h1{
     font-size: 14px;
 }
 .email input[type="text"]{
-    height:20px;
+    height:25px;
     width:150px;
 }
 
+header #mycheckinput[type="checkbox"]{
+     color:#ffffff;
+     margin-bottom: 20px;
+
+}
 .password{
     float:left;
     margin-left:20px;
+    height:25px;
 }
 .password label{
     padding-bottom:20px;
@@ -73,10 +85,11 @@ header #branding h1{
     float:left;
     margin-top:20px;
     margin-left:20px;
+    height:25px;
 }
 .login-button input[type="submit"]{
     background:#4267b2;
-    border: 1px solid #29487d;
+    border: 1px solid #ffffff;;
     width:50px;
     height:20px;
     color:#ffffff;
