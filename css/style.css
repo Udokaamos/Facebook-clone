@@ -2,6 +2,7 @@ body{
     font-family: 15px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
+    background-color: aliceblue;
 
 }
 
@@ -17,10 +18,7 @@ body{
     text-align: right;
 
 }
-.facebook-login{
-    width:50px;
-    float:left;
-}
+
 
 header{
     background:#3b5998;
@@ -93,4 +91,110 @@ header #mycheckinput[type="checkbox"]{
     width:50px;
     height:20px;
     color:#ffffff;
+}
+
+/* Section */
+.content-control{
+   width:980px;
+   height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+}
+
+.left{
+    float: left;
+    margin-top: 20px;
+    width: 400px;
+    font-family:Arial;
+    color: #0E385F;
+}
+
+.left h4{
+    margin-top:20px;
+    margin-bottom:60px;
+    font-size:17px;
+} 
+
+.left img{
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    font-family: Arial;
+    margin-top:20px;
+    font-size:20px;
+    text-align: left;
+}
+.right h1{
+    margin-top: 10px;
+    font-size:33px;
+}
+
+.ipt{
+    width: 200px;
+    height: 25px;
+    margin-top:10px;
+    margin-left: 2px;
+    font-family: Arial;
+    border-radius: 1px solid #95a5a6;
+}
+
+.ipt2{
+    width: 412px;
+    height:25px;
+    margin-left:2px;
+    border-radius: 1px solid #95a5a6;
+}
+.ipt3{
+    width:200px;
+    height:25px;
+    margin-left:2px;
+    font-family: Arial;
+}
+
+.ipt4{
+margin-left:5px;
+}
+
+form{
+    color:#3b5998;
+    padding-top: 20px;
+}
+.left h6{
+    padding-right:50px;
+}
+
+.login-button2 input[type="submit"]{
+    background:#025802;
+    margin-left:7px;
+    margin-top:0px;
+    width:250px;
+    height:30px;
+    font-size: 17px;
+    color: #e2dddd;
+    border: 1px solid #023602;
+    padding-top: 0px;
+}
+
+.left2{
+    font-size:15px;
+    margin-bottom: -15px;
+    padding-bottom: -15px;
+    margin-left: 5px;
+    color: #686d6d;
+}
+
+hr{
+    display:block;
+    margin-left:7px;
+    margin-top:5px;
+}
+
+.left3{
+    font-size:13px;
+    color: #686d6d;
+    margin-top:-5px;
+    margin-left:7px;
 }
