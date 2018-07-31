@@ -122,58 +122,63 @@ header #mycheckinput[type="checkbox"]{
 
 .right {
     float: right;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     margin-top:20px;
-    font-size:20px;
-    text-align: left;
+    font-size:15px;
+    text-align:left;
 }
 .right h1{
     margin-top: 10px;
-    font-size:33px;
+    font-size:30px;
 }
 
 .ipt{
-    width: 200px;
-    height: 25px;
+    width: 201px;
+    height: 34px;
     margin-top:10px;
     margin-left: 2px;
+    margin-bottom: -20px;
     font-family: Arial;
     border-radius: 1px solid #95a5a6;
 }
 
 .ipt2{
-    width: 412px;
-    height:25px;
+    width: 414px;
+    height:34px;
     margin-left:2px;
+    margin-bottom:-25px;
     border-radius: 1px solid #95a5a6;
 }
 .ipt3{
-    width:200px;
-    height:25px;
+    width:195px;
+    height:34px;
     margin-left:2px;
     font-family: Arial;
 }
 
 .ipt4{
-margin-left:5px;
+margin-left:2px;
+width: 13px;
 }
 
 form{
-    color:#3b5998;
+    color:#042a7a;
     padding-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .left h6{
     padding-right:50px;
 }
 
 .login-button2 input[type="submit"]{
-    background:#025802;
+    background:#0a770a;
     margin-left:7px;
     margin-top:0px;
     width:250px;
     height:30px;
     font-size: 17px;
-    color: #e2dddd;
+    color: #f3e6e6;
     border: 1px solid #023602;
     padding-top: 0px;
 }
